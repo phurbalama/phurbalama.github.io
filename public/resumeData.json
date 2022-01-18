@@ -1,0 +1,112 @@
+{
+    "main": {
+        "name": "Phurba Lama",
+        "description": "I'm a full-stack web developer and software engineer based in New York with a background in game development. I am passionate about creating application that can impact people's lives.",
+        "image": "profilepic.jpg",
+        "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "email": "phurbalama2002@gmail.com",
+        "phone": "555-555-5555",
+        "github": "https://github.com/phurbalama",
+        "project": "https://github.com/",
+        "address": {
+            "street": "(Your Street)",
+            "city": "(Your City)",
+            "state": "(Your State)"
+        },
+        "website": "https://github.com/",
+        "resumedownload": "https://github.com/",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/plama/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com/",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/phurbalama",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [
+            {
+                "school": "New York City College of Technology",
+                "degree": "Bachelor's degree in Computer Systems Technology - Software Development",
+                "graduated": "August 2020",
+                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+            },
+            {
+                "school": "LaGuardia Community College",
+                "degree": "Associates in New Media Technology",
+                "graduated": "March 2003",
+                "description": "Received 10 Outstandings in Care of Magical Creatures, Transfiguration, Potions, Charms, Herbology, Astronomy, History of Magic, Arithmancy, Ancient Runes, and Wandmaking."
+            }
+        ],
+        "work": [
+            {
+                "company": "LaGuardia Community College",
+                "title": "Front End Developer",
+                "years": "January 2019 - October 2020",
+                "description": "Work to put an end to pro-pureblood laws through negotiation, petitions, and enforcing and creating fair laws for the wizarding community.s"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Java",
+                "level": "60%"
+            },
+            {
+                "name": "VueJs",
+                "level": "55%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "50%"
+            },
+            {
+                "name": "CSS",
+                "level": "90%"
+            },
+            {
+                "name": "JAVA",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Gryffindor Project",
+                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "image": "project1.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Gryffindor Project",
+                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "image": "project2.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Gryffindor Project",
+                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "image": "project3.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Gryffindor Project",
+                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "image": "project4.jpg",
+                "url": "https://www.google.com"
+            }
+        ]
+    }
+}
