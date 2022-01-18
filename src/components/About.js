@@ -29,16 +29,14 @@ export default function About(props) {
                             <h2>Contact Details</h2>
                             <p className="address">
                                 <span>{name}</span><br />
-                                <span>{street}<br />
-                                    {city} {state}
+                                <span>{city} {state}
                                 </span><br />
-                                <span>{phone}</span><br />
                                 <span>{email}</span>
                             </p>
                         </div>
                         <div className="columns download">
                             <p>
-                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                                <a target ="_blank" href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                             </p>
                         </div>
                     </div>

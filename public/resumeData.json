@@ -1,18 +1,15 @@
 {
     "main": {
         "name": "Phurba Lama",
-        "description": "I'm a full-stack web developer and software engineer based in New York with a background in game development. I am passionate about creating application that can impact people's lives.",
+        "description": "I'm a full-stack web developer.",
         "image": "profilepic.jpg",
-        "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "bio": "I'm a full-stack web developer and software engineer based in New York with a background in game development. I am passionate about creating application that can impact people's lives.",
         "email": "phurbalama2002@gmail.com",
-        "phone": "555-555-5555",
         "github": "https://github.com/phurbalama",
         "project": "https://github.com/",
         "address": {
-            "street": "(Your Street)",
-            "city": "(Your City)",
-            "state": "(Your State)"
+            "city": "Queens,",
+            "state": "New York"
         },
         "website": "https://github.com/",
         "resumedownload": "https://github.com/",
@@ -23,11 +20,6 @@
                 "className": "fa fa-linkedin"
             },
             {
-                "name": "instagram",
-                "url": "http://instagram.com/",
-                "className": "fa fa-instagram"
-            },
-            {
                 "name": "github",
                 "url": "https://github.com/phurbalama",
                 "className": "fa fa-github"
@@ -35,19 +27,23 @@
         ]
     },
     "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "skillmessage": "",
         "education": [
             {
                 "school": "New York City College of Technology",
-                "degree": "Bachelor's degree in Computer Systems Technology - Software Development",
+                "degree": "Bachelor in Technology, Computer Systems Technology",
                 "graduated": "August 2020",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "concentration": "Software Development",
+                "gpa":"3.9",
+                "description": "Dean's Honor List, Infor Education Alliance Program Center of Excellence"
             },
             {
-                "school": "LaGuardia Community College",
-                "degree": "Associates in New Media Technology",
-                "graduated": "March 2003",
-                "description": "Received 10 Outstandings in Care of Magical Creatures, Transfiguration, Potions, Charms, Herbology, Astronomy, History of Magic, Arithmancy, Ancient Runes, and Wandmaking."
+                "school": "LaGuardia Community College/CUNY ",
+                "degree": "Associate in Applied Science, New Media Technology",
+                "graduated": "August 2018",
+                "concentration": "Game Development",
+                "gpa":"3.9",
+                "description": "Dean's Honor List, Phi Theta Kappa Honor Society"
             }
         ],
         "work": [
@@ -55,57 +51,46 @@
                 "company": "LaGuardia Community College",
                 "title": "Front End Developer",
                 "years": "January 2019 - October 2020",
-                "description": "Work to put an end to pro-pureblood laws through negotiation, petitions, and enforcing and creating fair laws for the wizarding community.s"
+                "description1": "Create, maintain, assist and design web pages with our College branding hello",
+                "description2": "Update the Academic Majors, advising pages and track student action metrics",
+                "description3": "Monitor and respond quickly and effectively to updates request in any of the college program areas."
             }
         ],
         "skills": [
             {
-                "name": "Java",
-                "level": "60%"
-            },
-            {
-                "name": "VueJs",
-                "level": "55%"
-            },
-            {
-                "name": "ReactJs",
-                "level": "50%"
-            },
-            {
-                "name": "CSS",
-                "level": "90%"
-            },
-            {
-                "name": "JAVA",
-                "level": "80%"
+                "language": "Java, C++, JavaScript(ES6+), Python",
+                "frontend": "React, HTML CSS, jQuery, Bootstrap",
+                "backend": "Spring Boot, Node.js, mySQL, MongoDB, NoSQL, RESTful API",
+                "tools": "GIT, GitHub, Visual Studio Code, Postman, Eclipse, Unity, Unreal Engine",
+                "coursework": "OOAD, Data Structure & Algorithms, Opera"
             }
         ]
     },
     "portfolio": {
         "projects": [
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
-                "image": "project1.jpg",
-                "url": "https://www.google.com"
+                "title": "Employee Management App",
+                "category": "Keep track of employee basic informations.",
+                "image": "project1.png",
+                "url": "https://github.com/phurbalama/Employee-Management-App"
             },
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
-                "image": "project2.jpg",
-                "url": "https://www.google.com"
+                "title": "To Do",
+                "category": "Keep track of your daily task and check marks after completion.",
+                "image": "project2.png",
+                "url": "https://github.com/phurbalama/To-Do-List-App"
             },
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
-                "image": "project3.jpg",
-                "url": "https://www.google.com"
+                "title": "Unlocking",
+                "category": "Unlocking is an adventurous game filled with puzzles and enemy obstacles.",
+                "image": "project3.png",
+                "url": "https://phurbalama2002.itch.io/unlocking"
             },
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
-                "image": "project4.jpg",
-                "url": "https://www.google.com"
+                "title": "Jackson Heights",
+                "category": "Explore my neighborhood and different facilities it provides. ",
+                "image": "project4.png",
+                "url": "https://github.com/phurbalama/My-Neighborhood"
             }
         ]
     }

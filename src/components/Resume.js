@@ -7,21 +7,36 @@ export default function Resume(props) {
         var education = props.data.education.map(function (education) {
             return <div key={education.school}><h3>{education.school}</h3>
                 <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-                <p>{education.description}</p></div>
+                <p><strong>Conentration - </strong>{education.concentration} <strong>GPA : </strong>{education.gpa}<br/>
+                <strong>Honors & Awards: </strong>{education.description}</p></div>
         })
         var work = props.data.work.map(function (work) {
             return <div key={work.company}><h3>{work.company}</h3>
                 <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-                <p>{work.description}</p>
+                <ul><li><span>&bull;</span> {work.description1}</li><li><span>&bull;</span> {work.description2}</li><li><span>&bull;</span> {work.description3}</li></ul>
             </div>
         })
 
         var skills = props.data.skills.map((skills) => {
-            var className = 'bar-expand ' + skills.name.toLowerCase();
+            var className = 'bar-expand ' + skills.language.toLowerCase();
             return (
-                <li key={skills.name}>
-                    <span style={{ width: skills.level, backgroundColor: '#740001' }} className={className}></span><em>{skills.name}</em>
+                <ul key={skills.language}>
+                <li>
+                    <strong>Languages: </strong><em>{skills.language}</em>
                 </li>
+                <li>
+                    <strong>Backend: </strong><em>{skills.backend}</em>
+                </li>
+                <li>
+                    <strong>Frontend: </strong><em>{skills.frontend}</em>
+                </li>
+                 <li>
+                    <strong>Tools: </strong><em>{skills.tools}</em>
+                </li>
+                 <li>
+                    <strong>Coursework: </strong><em>{skills.coursework}</em>
+                </li>
+                </ul>
             )
         })
     }
@@ -62,11 +77,7 @@ export default function Resume(props) {
                 <div className="nine columns main-col">
                     <p>{skillmessage}
                     </p>
-                    <div className="bars">
-                        <ul className="skills">
-                            {skills}
-                        </ul>
-                    </div>
+                    {skills}
                 </div>
             </div>
         </section>

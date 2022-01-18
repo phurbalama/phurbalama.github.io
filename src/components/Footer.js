@@ -4,7 +4,7 @@ export default function Footer(props) {
 
     if (props.data) {
         var networks = props.data.social.map(function (network) {
-            return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+            return <li key={network.name}><a target ="_blank" href={network.url}><i className={network.className}></i></a></li>
         })
     }
 
