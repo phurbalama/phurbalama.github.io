@@ -1,0 +1,97 @@
+{
+    "main": {
+        "name": "Phurba Lama",
+        "description": "I'm a full-stack web developer.",
+        "image": "profilepic.jpg",
+        "bio": "I'm a full-stack web developer and software engineer based in New York with a background in game development. I am passionate about creating application that can impact people's lives.",
+        "email": "phurbalama2002@gmail.com",
+        "github": "https://github.com/phurbalama",
+        "project": "https://github.com/",
+        "address": {
+            "city": "Queens,",
+            "state": "New York"
+        },
+        "website": "https://github.com/",
+        "resumedownload": "https://github.com/",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/plama/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/phurbalama",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "",
+        "education": [
+            {
+                "school": "New York City College of Technology",
+                "degree": "Bachelor in Technology, Computer Systems Technology",
+                "graduated": "August 2020",
+                "concentration": "Software Development",
+                "gpa":"3.9",
+                "description": "Dean's Honor List, Infor Education Alliance Program Center of Excellence"
+            },
+            {
+                "school": "LaGuardia Community College/CUNY ",
+                "degree": "Associate in Applied Science, New Media Technology",
+                "graduated": "August 2018",
+                "concentration": "Game Development",
+                "gpa":"3.9",
+                "description": "Dean's Honor List, Phi Theta Kappa Honor Society"
+            }
+        ],
+        "work": [
+            {
+                "company": "LaGuardia Community College",
+                "title": "Front End Developer",
+                "years": "January 2019 - October 2020",
+                "description1": "Create, maintain, assist and design web pages with our College branding hello",
+                "description2": "Update the Academic Majors, advising pages and track student action metrics",
+                "description3": "Monitor and respond quickly and effectively to updates request in any of the college program areas."
+            }
+        ],
+        "skills": [
+            {
+                "language": "Java, C++, JavaScript(ES6+), Python",
+                "frontend": "React, HTML CSS, jQuery, Bootstrap",
+                "backend": "Spring Boot, Node.js, mySQL, MongoDB, NoSQL, RESTful API",
+                "tools": "GIT, GitHub, Visual Studio Code, Postman, Eclipse, Unity, Unreal Engine",
+                "coursework": "OOAD, Data Structure & Algorithms, Opera"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Employee Management App",
+                "category": "Keep track of employee basic informations.",
+                "image": "project1.png",
+                "url": "https://github.com/phurbalama/Employee-Management-App"
+            },
+            {
+                "title": "To Do",
+                "category": "Keep track of your daily task and check marks after completion.",
+                "image": "project2.png",
+                "url": "https://github.com/phurbalama/To-Do-List-App"
+            },
+            {
+                "title": "Unlocking",
+                "category": "Unlocking is an adventurous game filled with puzzles and enemy obstacles.",
+                "image": "project3.png",
+                "url": "https://phurbalama2002.itch.io/unlocking"
+            },
+            {
+                "title": "Jackson Heights",
+                "category": "Explore my neighborhood and different facilities it provides. ",
+                "image": "project4.png",
+                "url": "https://github.com/phurbalama/My-Neighborhood"
+            }
+        ]
+    }
+}
