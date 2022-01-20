@@ -71,13 +71,13 @@
             {
                 "title": "Employee Management App",
                 "category": "Keep track of employee basic informations.",
-                "image": "project1.png",
+                "image": "project1.PNG",
                 "url": "https://github.com/phurbalama/Employee-Management-App"
             },
             {
                 "title": "To Do",
                 "category": "Keep track of your daily task and check marks after completion.",
-                "image": "project2.png",
+                "image": "project2.PNG",
                 "url": "https://github.com/phurbalama/To-Do-List-App"
             },
             {
@@ -89,7 +89,7 @@
             {
                 "title": "Jackson Heights",
                 "category": "Explore my neighborhood and different facilities it provides. ",
-                "image": "project4.png",
+                "image": "project4.PNG",
                 "url": "https://github.com/phurbalama/My-Neighborhood"
             }
         ]

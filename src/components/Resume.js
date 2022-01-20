@@ -25,10 +25,10 @@ export default function Resume(props) {
                     <strong>Languages: </strong><em>{skills.language}</em>
                 </li>
                 <li>
-                    <strong>Backend: </strong><em>{skills.backend}</em>
+                    <strong>Frontend: </strong><em>{skills.frontend}</em>
                 </li>
                 <li>
-                    <strong>Frontend: </strong><em>{skills.frontend}</em>
+                    <strong>Backend/Database/Cloud: </strong><em>{skills.backend}</em>
                 </li>
                  <li>
                     <strong>Tools: </strong><em>{skills.tools}</em>
