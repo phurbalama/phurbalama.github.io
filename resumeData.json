@@ -1,9 +1,9 @@
 {
     "main": {
         "name": "Phurba Lama",
-        "description": "I'm a full-stack web developer.",
+        "description": "I'm a full-stack Web Developer / Back-end Engineer",
         "image": "profilepic.jpg",
-        "bio": "I'm a full-stack web developer and software engineer based in New York with a background in game development. I am passionate about creating application that can impact people's lives.",
+        "bio": "I'm a full-stack Web Developer and Back-end engineer based in New York with a background in game development. I am passionate about creating application that can impact people's lives.",
         "email": "phurbalama2002@gmail.com",
         "github": "https://github.com/phurbalama",
         "project": "https://github.com/",
@@ -12,7 +12,7 @@
             "state": "New York"
         },
         "website": "https://github.com/",
-        "resumedownload": "https://github.com/",
+        "resumedownload": "https://github.com/public/Phurba_LamaResume.pdf",
         "social": [
             {
                 "name": "linkedin",
@@ -42,7 +42,7 @@
                 "degree": "Associate in Applied Science, New Media Technology",
                 "graduated": "August 2018",
                 "concentration": "Game Development",
-                "gpa":"3.9",
+                "gpa":"3.7",
                 "description": "Dean's Honor List, Phi Theta Kappa Honor Society"
             }
         ],
@@ -59,10 +59,10 @@
         "skills": [
             {
                 "language": "Java, C++, JavaScript(ES6+), Python",
-                "frontend": "React, HTML CSS, jQuery, Bootstrap",
-                "backend": "Spring Boot, Node.js, mySQL, MongoDB, NoSQL, RESTful API",
+                "frontend": "React, HTML, CSS, jQuery, Bootstrap",
+                "backend": "Spring Boot, Node.js, MySQL, MongoDB, Google Cloud Platform",
                 "tools": "GIT, GitHub, Visual Studio Code, Postman, Eclipse, Unity, Unreal Engine",
-                "coursework": "OOAD, Data Structure & Algorithms, Opera"
+                "coursework": "Data Structure & Algorithms, Dynamic Web Dev, App Dev with Database"
             }
         ]
     },
